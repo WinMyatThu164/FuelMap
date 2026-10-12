@@ -1,0 +1,51 @@
+  name: fuel_map
+  description: "Smart Fuel Planner - A Flutter application to plan trips and calculate fuel costs."
+  publish_to: 'none'
+  version: 1.0.0+1
+
+  environment:
+    sdk: ">=3.0.0 <4.0.0"
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    cupertino_icons: ^1.0.8
+
+    # Google Maps
+    google_maps_flutter: ^2.14.0
+
+    mockito: ^5.4.6
+
+    # Location
+    geolocator: ^14.0.2
+
+    # Polyline / Directions
+    flutter_polyline_points: ^3.1.0
+
+    # Backend
+    supabase_flutter: ^2.16.0
+
+    # State Management
+    provider: ^6.1.5
+
+    # HTTP
+    http: ^1.5.0
+
+    # Date / Number formatting
+    intl: ^0.20.2
+
+    # UUID
+    uuid: ^4.5.1
+
+    # Local Storage
+    shared_preferences: ^2.5.3
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+
+    flutter_lints: ^6.0.0
+
+  flutter:
+    uses-material-design: true
